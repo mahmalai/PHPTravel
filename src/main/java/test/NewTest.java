@@ -27,16 +27,17 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
+import com.utility.BrowserSession;
+
 import pageObjects.BaseClass;
 import pageObjects.PHPTravels;
-import utility.BrowserSession;
 
 public class NewTest extends BrowserSession {
 
    
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) {
-	  
+	  //New edit
   }
   
   @BeforeClass
